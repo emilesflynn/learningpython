@@ -26,9 +26,9 @@ user_numbers.sort()
 print(user_numbers[2])
 
 #%% Task 3 - Lists and Iteration (Challenge)
-usernumbers = []
-for i in range(3): 
+user_numbers = []
+for i in range(3):
     input_num = int(input("Enter an integer"))
-    usernumbers.append(input_num)
-usernumbers.sort(reverse=True)
-print(usernumbers)
+    user_numbers.append(input_num)
+user_numbers.sort(reverse=True)
+print(user_numbers)
