@@ -14,6 +14,6 @@ rows = arcpy.da.SearchCursor(fc,['Climate_ID','Zone'])
 # Use a For loop to iterate through all rows
 for row in rows:
     climateVal = row[0]
-    zoneVal = row[1]
+    zoneVal = row[1].area
     # Print the values for the fields we specified
     print('The climate is {} and the zone is {}'.format(climateVal,zoneVal))

@@ -4,15 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
         {
-            "name": "Python Debugger: Current File with Arguments",
-            "type": "debugpy",
+            "name": "Python: Current File",
+            "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": "${command:pickArgs}"
+            "justMyCode": true,
+            "args": ["ENV859", "100 meters", "100", "17.6"]
         }
-    ]
-}
+    }

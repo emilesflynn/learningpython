@@ -7,3 +7,6 @@ className = sys.argv[1]
 distance = sys.argv[2]
 A = sys.argv[3]
 B = sys.argv[4]
+
+print(className, distance,A,B)
+print(className, distance,A+B)
